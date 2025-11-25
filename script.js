@@ -12,15 +12,15 @@ const particlesContainer = document.querySelector('.particles');
 const balloonsContainer = document.querySelector('.balloons');
 
 let photos = [
-    "images/pic1.jpg",
-    "images/pic2.jpg",
-    "images/pic3.jpg",
-    "images/pic4.jpg",
-    "images/pic5.jpg",
-    "images/pic6.jpg",
-    "images/pic7.jpg",
-    "images/pic8.jpg",
-    "images/pic9.jpg",
+    "pic1.jpg",
+    "pic2.jpg",
+    "pic3.jpg",
+    "pic4.jpg",
+    "pic5.jpg",
+    "pic6.jpg",
+    "pic7.jpg",
+    "pic8.jpg",
+    "pic9.jpg",
     // Add more images here, e.g., "images/pic5.jpg"
 ];
 
