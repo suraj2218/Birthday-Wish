@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Special Wish For Anshika 🌹</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<audio id="birthdayMusic" loop>
+    <source src="music/birthday_track.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+</audio>
+
+<div class="background-layer">
+    <div class="particles"></div> 
+    <div class="balloons"></div> 
+</div>
+
+<div class="card-container">
+    <div class="birthday-card" id="bdayCard">
+        
+        <div class="card-face card-front">
+            <h1 class="title">Tap to Open <span class="heart-pulse">💌</span></h1>
+            <p class="subtitle">A Special Message for Anshika</p>
+            <div class="tap-icon">👇</div>
+        </div>
+
+        <div class="card-face card-back">
+            <div class="card-content">
+                <h2 class="message-title">Happy Birthday, My Forever Person 💍</h2>
+                <div class="text-area">
+                    <p class="typewriter-text" id="typewriterText">
+                        To My Lifeline,
+
+                        On this beautiful day, I want to say that you are my anchor, my peace, and the most radiant part of my universe. Your presence turns ordinary moments into cherished memories.
+
+                        Har struggle, har chhoti khushi, tumhare saath share karne ka ehsaas priceless hai. I cherish your kindness, your spirit, and the way you make me feel whole.
+
+                        I promise to always be your support, your protector, and your biggest fan.
+
+                        You deserve all the joy in the world. Shine bright, always. ✨
+
+                        With all my love, 
+                        Rotika Thkur
+                    </p>
+                </div>
+                
+                <button class="surprise-btn" onclick="startSlideshow()">See Our Journey 🖼️</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="slideshow" id="slideshow">
+    <span class="close" onclick="closeSlide()">×</span>
+    <img id="slideImg" src="" alt="Photo">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
